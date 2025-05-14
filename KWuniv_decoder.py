@@ -269,10 +269,10 @@ def write_csv_from_hex(hex_data_file, csv_file):
                 writer.writerow(data)
 
 # 예시 Hex 데이터 파일 경로
-hex_data_file = r"/Users/jungsujin/bodydata/SUIT_LOGGED_DATA-0424.csv"
+hex_data_file = r"/Users/jungsujin/bodydata/SUIT_LOGGED_DATA-1.csv"
 
 # 결과 CSV 파일 경로
-csv_file = r"/Users/jungsujin/bodydata/Data1_0424.csv"
+csv_file = r"/Users/jungsujin/bodydata/final_data_0514"
 
 # Hex 데이터를 CSV 파일에 쓰기
 write_csv_from_hex(hex_data_file, csv_file)
